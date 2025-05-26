@@ -1,0 +1,17 @@
+import {useState} from "react";
+
+function Timer(){
+    const[inputTime, setInputTime] = useState(0)
+    const[isRunning, setIsRunning] = useState(false)
+    
+    
+  function getTime(){
+    return(
+        <div>
+            <input value={inputTime} 
+        </div>
+    )
+        
+    
+  }
+}
